@@ -1,6 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 
+// inquirer
+//     .prompt(questions)
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -10,7 +13,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please give a description explaining the project.',
+        message: 'Give a description explaining the project.',
         name: 'description',
      },
      {
@@ -25,27 +28,30 @@ const questions = [
      },
      {
         type: 'confirm',
-        message: 'Can other developers contribute to the project? (y/N)',
+        message: 'Can other developers contribute to the project?',
         name: 'contributing',
+        choices: ['Yes', 'No'],
      },
      {
         type: 'confirm',
-        message: 'Would you like to include any tests for the project? (y/N)',
+        message: 'Would you like to include any tests for the project?',
         name: 'tests',
+        choices: ['Yes', 'No'],
      },
      {
         type: 'list',
-        message: 'Which licenses, if any, were used?',
+        message: 'Which license, if any, was used?',
         name: 'license',
+        choices: ['MIT', 'ISC', 'BSD 2-Clause', 'None'],
      },
      {
         type: 'input',
-        message: 'Please enter the GitHub username(s) to be contacted for any questions.',
+        message: 'Enter the GitHub username to be contacted for any questions.',
         name: 'questions',
      },
      {
         type: 'input',
-        message: 'Please enter the email address to be contacted for any additional questions.',
+        message: 'Enter the email address to be contacted for further questions.',
         name: 'questions',
      },
 ];
