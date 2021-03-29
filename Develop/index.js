@@ -56,7 +56,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.md', data)
+    fs.writeFile('README.md', data, generateMarkdown)
 }
 
 // TODO: Create a function to initialize app
@@ -72,5 +72,5 @@ init();
 //callback error function, if needed
 // function(err) {
 //     if (err) throw err;
-//     console.log('whatever message if successful.')
+//     console.log('whatever message, if successful.')
 // }
