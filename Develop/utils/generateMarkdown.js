@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (data.license === 'MIT') {
-    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg`;
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
   }else if (data.license === 'ISC') {
     return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
   }else if (data.license === 'BSD 2-Clause') {
@@ -14,7 +14,17 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (data.license === 'MIT') {
+    return `[MIT License](https://opensource.org/licenses/MIT)`;
+  }else if (data.license === 'ISC') {
+    return `[ISC License](https://opensource.org/licenses/ISC)`;
+  }else if (data.license === 'BSD 2-Clause') {
+    return `[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)`;
+  }else {
+    return `[' ']`;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
