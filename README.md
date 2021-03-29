@@ -8,5 +8,7 @@ In the code editor, select the folder in use and open the Integrated Terminal (o
 
 ## Usage
 Please see how the application works by viewing the following video.
+
 [README Generator](https:www.url.com)
+
 ![demo pics](images.jpg)
