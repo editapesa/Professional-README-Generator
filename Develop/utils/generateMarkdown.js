@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
   }else if (license === 'BSD 2-Clause') {
     return `![License: BSD 2-Clause](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)`;
   }else {
-    return `[ ]`; 
+    return ` `; 
   }
 }
 
@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
   }else if (license === 'BSD 2-Clause') {
     return `[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)`;
   }else {
-    return `[ ]`;
+    return ` `;
   }
 }
 
@@ -32,13 +32,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'MIT') {
-    return `[This project is licensed under the MIT license.]`;
+    return `This project is licensed under the MIT license.`;
   }else if (license === 'ISC') {
-    return `[This project is licensed under the ISC License.]`;
+    return `This project is licensed under the ISC License.`;
   }else if (license === 'BSD 2-Clause') {
-    return `[This project is licensed under the BSD 2-Clause License.]`;
+    return `This project is licensed under the BSD 2-Clause License.`;
   }else {
-    return `[ ]`;
+    return ` `;
   }
 }
 
@@ -52,10 +52,15 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   -[Installation](#installation)
+
   -[Usage](#usage)
+
   -[Contributing](#contributing)
+
   -[Tests](#tests)
+
   -[License](#license)
+  
   -[Questions](#question)
 
   ## Installation
@@ -71,7 +76,6 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  ${data.license}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
 
