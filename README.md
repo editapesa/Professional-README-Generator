@@ -20,8 +20,9 @@ In the code editor, select the folder to use and open the Integrated Terminal (o
 This project is licensed under the BSD 2-Clause License.
 
 ## Usage
-Please see how the application works by viewing the following video.
+Click the link below to see a video of how the application works.
 
 [README Generator](https:www.url.com)
 
-![demo pics](images.jpg)
+![demo pic 1](Assets\Images\demo-pic1.png)
+![demo pic 2](Assets\Images\demo-pic2.png)
