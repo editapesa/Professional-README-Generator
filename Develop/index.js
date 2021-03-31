@@ -45,12 +45,12 @@ const questions = [
      {
         type: 'input',
         message: 'Enter the GitHub username to be contacted for any questions.',
-        name: 'question',
+        name: 'question1',
      },
      {
         type: 'input',
         message: 'Enter the email address to be contacted for further questions.',
-        name: 'question',
+        name: 'question2',
      },
 ];
 
