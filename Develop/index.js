@@ -44,7 +44,7 @@ const questions = [
      },
      {
         type: 'input',
-        message: 'Enter the GitHub username to be contacted for any questions.',
+        message: 'Enter the GitHub profile username associated with this project.',
         name: 'question1',
      },
      {
