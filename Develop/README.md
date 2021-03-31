@@ -20,7 +20,7 @@
   In the code editor, select the folder to use and open the Integrated Terminal (or GitBash). From there run npm init, followed by npm i, to install a package.json with the required dependencies.
 
   ## Usage
-  
+  The application can then be started by entering the command node index.js. Please see video and screenshots.
 
   ## Contributing
   Not permitted at this time.
