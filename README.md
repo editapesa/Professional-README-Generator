@@ -24,5 +24,5 @@ Click the link below to see a video of how the application works.
 
 [README Generator](https:www.url.com)
 
-![demo pic 1](Assets\Images\demo-pic1.png)
-![demo pic 2](Assets\Images\demo-pic2.png)
+![demo pic 1](Images/demo-pic1.png)
+![demo pic 2](Images/demo-pic2.png)
