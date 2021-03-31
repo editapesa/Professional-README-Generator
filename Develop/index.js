@@ -70,9 +70,3 @@ function init() {
 init();
 
 
-
-//callback error function, if needed
-// function(err) {
-//     if (err) throw err;
-//     console.log('whatever message, if successful.')
-// }
