@@ -76,7 +76,7 @@ function generateMarkdown(data) {
 
   ## Questions
   ${data.question1}\n
-  If there are any additional questions please contact me at the email address below.\n
+  If there are any additional questions please send them to the email address below.\n
   ${data.question2}
 
 `;

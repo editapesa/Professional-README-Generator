@@ -27,13 +27,13 @@ const questions = [
         name: 'usage',
      },
      {
-        type: 'confirm',
-        message: 'Can other developers contribute to the project?',
+        type: 'input',
+        message: 'What are the guidelines for other developers if permitted to contribute to the project?',
         name: 'contributing',
      },
      {
-        type: 'confirm',
-        message: 'Would you like to include any tests for the project?',
+        type: 'input',
+        message: 'If tests were created for the project, provide examples on how to them.',
         name: 'tests',
      },
      {
