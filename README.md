@@ -6,7 +6,7 @@ A high quality README file is important to have when creating projects as a deve
 - A professional README file will be generated with the title of the project and sections named Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 - The project title entered will be displayed as the title of the README.
 - The responses for the Description, Installation, Usage, Contributing, Tests, License, and Questions prompts will be displayed in their respective titled sections.
-- Whichever license is chosen the associated badge will appear towards the top of the README. A brief explanation of which license was chosen and a link to a more detailed description will be diplayed in the License section. 
+- Whichever license is chosen the associated badge will appear towards the top of the README. A brief explanation of which license was chosen and a link to a more detailed description will be displayed in the License section. 
 - A link to the GitHub profile of the GitHub username entered will appear in the Questions section.
 - The email address entered will also appear in the Questions section with instructions in case there are any additional questions.
 - The categories in the Table of Contents can be clicked to go to the corresponding section.
